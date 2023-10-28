@@ -66,7 +66,7 @@ namespace CalculadoraIMC
                 else if (txbImc >= 40.0)
                 {
                     lblInformacao.ForeColor = Color.DarkRed;
-                    lblInformacao.Text = ("Obesidade III");
+                    lblInformacao.Text = "Obesidade III";
                 }
                 
             }
