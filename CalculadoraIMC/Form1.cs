@@ -16,5 +16,24 @@ namespace CalculadoraIMC
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            double txbPeso,txbAltura,txbImc;
+            txbPeso = double.Parse(txbNum1.Text);
+            txbAltura = double.Parse(txbNum2.Text);
+            txbImc = txbPeso / (txbAltura * 2);
+            txbResultado.Text = txbImc.ToString();
+        }
     }
 }
