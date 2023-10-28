@@ -114,9 +114,11 @@
             // lblInformacao
             // 
             this.lblInformacao.AutoSize = true;
+            this.lblInformacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformacao.ForeColor = System.Drawing.Color.Black;
             this.lblInformacao.Location = new System.Drawing.Point(12, 266);
             this.lblInformacao.Name = "lblInformacao";
-            this.lblInformacao.Size = new System.Drawing.Size(0, 13);
+            this.lblInformacao.Size = new System.Drawing.Size(0, 16);
             this.lblInformacao.TabIndex = 9;
             this.lblInformacao.Click += new System.EventHandler(this.label1_Click_1);
             // 
@@ -136,7 +138,7 @@
             this.Controls.Add(this.lblTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculadora de IMC";
             this.ResumeLayout(false);
             this.PerformLayout();
 
